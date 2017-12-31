@@ -1,6 +1,6 @@
 ---
 layout:  post
-title: "Web Scraping and Webcomics"
+title: "Web dddddddddddScraping and Webcomics"
 comments:  true
 published:  true
 author: "Zach Burchill"
