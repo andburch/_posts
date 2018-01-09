@@ -42,7 +42,7 @@
  
  We should divy up what needs to be done.  Here are some preliminary tasks that I've broken down. When you're done with the task, strikethrough the text.
  
- * Make the double navbar: **Andrew?**
+- [ ] Make the double navbar: **Andrew**
  * See if you can make a post use a different color-scheme/layout based on the author (see https://jekyllrb.com/docs/configuration/): **Andrew**
  * Test if making a new `.md` post from a `.Rmd` file will erase static images in the `figures` folder: **Zach**
  * Get some way to share Liquid data: **Zach**
