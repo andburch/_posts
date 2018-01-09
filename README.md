@@ -45,7 +45,8 @@
 - [X] Test checkboxes: **Zach**
 - [ ] Make the double navbar: **Andrew**
 - [ ]  See if you can make a post use a different color-scheme/layout based on the author (see https://jekyllrb.com/docs/configuration/): **Andrew**
-- [ ] Test if making a new `.md` post from a `.Rmd` file will erase static images in the `figures` folder: **Zach**
+- [X] Test if making a new `.md` post from a `.Rmd` file will erase static images in the `figures` folder: **Zach**
+     - It doesn't.
 - [ ] Get some way to share Liquid data: **Zach**
 - [ ] Come up with a system for managing the CSS/layout differences across sites: **Andrew**
      - ~~For this, it'll be pretty easy. `general.scss` is the only file that uses the CSS variables except one reference to `$text-color` in the `nav.css`. So if we just need to have a `generalA.scss` and a `generalZ.scss` and have an `if` statement in Liquid, based on the front matter of the blog post.~~ 
