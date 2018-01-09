@@ -47,6 +47,7 @@
  * Test if making a new `.md` post from a `.Rmd` file will erase static images in the `figures` folder: **Zach**
  * Get some way to share Liquid data: **Zach**
  * Come up with a system for managing the CSS/layout differences across sites: **Zach**
+  *asdf
  
  
  
