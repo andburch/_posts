@@ -38,6 +38,14 @@
  * Variables in Jekyll/liquid: https://jekyllrb.com/docs/variables/
  * Custom data in liquid: https://jekyllrb.com/docs/datafiles/
  
+ # Action items:
+ 
+ We should divy up what needs to be done.  Here are some preliminary tasks that I've broken down. When you're done with the task, strikethrough the text.
+ 
+ * Make the double navbar: **Andrew?**
+ * Test if making a new `.md` post from a `.Rmd` file will erase static images in the `figures` folder: **Andrew?**
+ * Get some way to share Liquid data: **Zach**
+ * Come up with a system for managing the CSS/layout differences across sites: **Zach**
  
  
  
