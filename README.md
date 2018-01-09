@@ -51,7 +51,7 @@
      - ~~For this, it'll be pretty easy. `general.scss` is the only file that uses the CSS variables except one reference to `$text-color` in the `nav.css`. So if we just need to have a `generalA.scss` and a `generalZ.scss` and have an `if` statement in Liquid, based on the front matter of the blog post.~~ 
      - I don't think that's a good idea, since we'd then have to make changes to both files whenever we wanted to change something. So far, the best solution I can see is to make `general.scss` a partial file (`_general.scss`) and have what is *essentially*--but not *actually* two partial files load both. So a `zstyle.scss` file that basically only `@imports` `_general.scss` (which imports `_variables.scss`), and a `astyle.scss` file that does the same thing, but then `@imports` another, shared partial file (hypothetically, `_andrew_variables.scss`, which exists in a shared folder) that redefines the variables as the other twins' style things.
         - [ ] **To test:** Can a partial file `@import` another partial file?
-        - [ ]**To test:** I believe importing a file which defines the variables differently *should* overwrite variables from previous `@imports`, but I'm not sure.
+        - [ ] **To test:** I believe importing a file which defines the variables differently *should* overwrite variables from previous `@imports`, but I'm not sure.
         - Also, organizationally, it would be best to move all versions of the `_variables.scss` file to the shared repo, making them something like `_andrew_variables.scss` and `_zach_variables.scss`.
  
  
