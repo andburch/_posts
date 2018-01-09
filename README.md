@@ -47,7 +47,6 @@
  * Test if making a new `.md` post from a `.Rmd` file will erase static images in the `figures` folder: **Zach**
  * Get some way to share Liquid data: **Zach**
  * Come up with a system for managing the CSS/layout differences across sites: **Zach**
-  *asdf
- 
+     - For this, it'll be pretty easy. `general.scss` is the only file that uses the CSS variables except one reference to `$text-color` in the `nav.css`. So if we just need to have a `generalA.scss` and a `generalZ.scss` and have an `if` statement in Liquid, based on the front matter of the blog post. 
  
  
