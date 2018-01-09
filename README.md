@@ -54,5 +54,10 @@
         - [X] **To test:** Can a partial file `@import` another partial file?  **A partial file CAN load another partial file, seemingly**.
         - [X] ~~**To test:** I believe importing a file which defines the variables differently *should* overwrite variables from previous `@imports`, but I'm not sure.~~  This **does NOT work**.
         - Also, organizationally, it would be best to move all versions of the `_variables.scss` file to the shared repo, making them something like `_andrew_variables.scss` and `_zach_variables.scss`.
+- [X] Test if you can put `figure` in `_posts`: **Zach**
+     - It doesn't work. At least, I don't think it does. Jekyll doesn't like it.
+- [X] Find a way of putting `figure` in `_posts`. (Try this: https://nhoizey.github.io/jekyll-postfiles/): **Andrew**   
+     
+
  
  
