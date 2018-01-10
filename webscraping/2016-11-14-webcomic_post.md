@@ -33,7 +33,7 @@ If you use Python and want an incredibly easy-to-get-into web scraping tool, che
 
 "Broodhollow."  The name sounds like a title that a moody fifteen-year-old would come up with, but it is **absolutely** my favorite webcomic. _**Ever.**_ _Broodhollow's_ art is beautiful and the story writing is some of the best I've ever read. One part comedy and two parts creeping horror, if the phrase "Tintin meets H.P. Lovecraft" appeals to you at all, [go read it right now](http://broodhollow.chainsawsuit.com/). If author Kris Straub can finish the comic with a _tenth_ of the talent he's exhibited so far, I'm confident this will go down as one of the great graphic novels of our generation.
 
-![plot of chunk broodhollow_snippet](/figure/source/2016-11-14-webcomic_post/broodhollow_snippet-1.png)
+![plot of chunk broodhollow_snippet](broodhollow_snippet-1.png)
 
 <p class = "figcaption">A sample of Kris Staub's genius: <em>Broodhollow</em>.</p>
  
