@@ -60,8 +60,9 @@
 
 - [X] Test if you can put `figure` in `_posts`: **Zach**
      - It doesn't work. At least, I don't think it does. Jekyll doesn't like it.
-- [ ] Find a way of putting `figure` in `_posts`. (Try this: https://nhoizey.github.io/jekyll-postfiles/): **Andrew**   
+- [X] Find a way of putting `figure` in `_posts`. (Try this: https://nhoizey.github.io/jekyll-postfiles/): **Zach**   
     - But how do you get the figures INTO those files? Like, when you knit the .Rmd files, how do they know where to go? 
+- [ ] Standardize naming conventions and image path stuff: **Zach**
      
 
  
