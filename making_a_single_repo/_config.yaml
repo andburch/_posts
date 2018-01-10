@@ -22,6 +22,7 @@ compass:
   include_analytics: true
 
 # Exclude non-site files:
+include: ["_posts"]
 exclude: ["CNAME", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "anne_pro_macros.xlsx", "notes.txt"]
 
 # Dependencies
