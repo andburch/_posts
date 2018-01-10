@@ -5,7 +5,6 @@ comments:  true
 published:  true
 author: "Zach Burchill"
 date: 2016-11-14 10:00:00
-permalink: /webscraping/
 categories: ['web scraping',webcomics,python,threading,R]
 output:
   html_document:
