@@ -16,4 +16,11 @@ authorstyles: {
   'Zach Burchill':    'zach_style.css',
   'Andrew Burchill':  'andrew_style.css'
 }
+burchills: 
+	- 'Zach Burchill'
+    - 'Andrew Burchill'
+logo_files: {
+  'Zach Burchill':    '/images/pawpaw.png',
+  'Andrew Burchill':  '/images/pawpaw.png'
+}
 --- 
