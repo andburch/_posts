@@ -23,7 +23,7 @@ logo_files: {
   'Zach Burchill':    '/images/pawpaw.png',
   'Andrew Burchill':  '/images/pawpaw.png'
 }
-base_site {
+base_sites: {
   'Zach Burchill':    'https://burchill.github.io/',
   'Andrew Burchill':  'https://andburch.github.io/'
 }
