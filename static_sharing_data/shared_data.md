@@ -27,5 +27,8 @@ base_sites: {
   'Zach Burchill':    'https://burchill.github.io/',
   'Andrew Burchill':  'https://andburch.github.io/'
 }
-
+author_blogs: {
+  'Zach Burchill':    'https://burchill.github.io/blog/',
+  'Andrew Burchill':  'https://andburch.github.io/blog/'
+}
 --- 
