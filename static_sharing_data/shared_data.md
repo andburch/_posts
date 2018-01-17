@@ -17,10 +17,15 @@ authorstyles: {
   'Andrew Burchill':  'andrew_style.css'
 }
 burchills: 
-	- 'Zach Burchill'
-    - 'Andrew Burchill'
+  - 'Zach Burchill'
+  - 'Andrew Burchill'
 logo_files: {
   'Zach Burchill':    '/images/pawpaw.png',
   'Andrew Burchill':  '/images/pawpaw.png'
 }
+base_site {
+  'Zach Burchill':    'https://burchill.github.io/',
+  'Andrew Burchill':  'https://andburch.github.io/'
+}
+
 --- 
