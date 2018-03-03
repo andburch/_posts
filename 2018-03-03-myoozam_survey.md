@@ -235,6 +235,7 @@ form.addEventListener('submit', e => {
       fetch(scriptURL, { method: 'POST', body: new FormData(form)})
         .then(response => console.log('Success!', response))
         .catch(error => console.error('Error!', error.message))
+      alert("Thanks for your submission!");
     }
   })
   
@@ -246,4 +247,4 @@ form.addEventListener('submit', e => {
 
 ## Source Code:
 
-I'll be releasing another blog post about my experience with Google Maps JavaScript API and how I'm saving the results of these surveys automatically to a Google Sheets document. Stay tuned for the code!
+I'll be releasing another blog post about my experience with Google Maps JavaScript API and how I'm saving the results of these surveys automatically to a Google Sheets document. Stay tuned for the code! 
