@@ -47,7 +47,7 @@ If you're interested in collecting this type of data yourself, I'll be releasing
 
 <form class="form" name="submit-to-google-sheet" action="">
   <h2>Where Does "Myoozam" Come From?</h2>
-  <p><label for="name">Name:</label><input placeholder="First name, full name, fake name, whatever" id="name">
+  <p><label for="name">Name:</label><input placeholder="First name, full name, fake name, whatever" id="name" name="name">
   </p>
   <p><label for="myuzam">Do you pronounce "museum" as <span style="white-space: nowrap;">/myoo-zam/</span>? (two syllables)</label>
     <span style="width:100%;display:block;margin-top:7px;">
