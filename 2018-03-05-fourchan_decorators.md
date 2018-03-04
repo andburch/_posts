@@ -21,7 +21,7 @@ But the truth is, I was just pissed off that I couldn't read the manga I wanted 
 
 These are the Python lessons I learned scraping manga scanlations off of 4chan.
 
-### Part 3: The 'Pythonicity' of Decorators
+### Part 3: The 'pythonicity' of decorators
 
 <!--more-->
 
@@ -132,7 +132,7 @@ Shout! A little bit softer now! Shout! A little bit softer now!
 
 This is super useful for a lot of specific situations. For example, `Flask` is a Python library used for building websites, and [uses decorators frequently and elegantly](http://flask.pocoo.org/docs/0.10/quickstart/#routing) to set URLs. Decorators are also great for timing functions and certain [other advanced applications](https://wiki.python.org/moin/PythonDecoratorLibrary).
 
-However, as they get more complicated, or as you chain decorators together, they get _much_ harder to read, especially for those who haven't worked in all the obscure parts of Python.
+However, as they get more complicated, or as you chain decorators together, they get _much_ harder to read, especially for those who haven't worked in all the obscure parts of Python. Feel free to browse through some of the examples---they're often a little mind-bending.
 
 ## Sometimes Showing Off Is a Bad Thing
 
@@ -144,9 +144,13 @@ There are obvious benefits to using decorators in this situation, and maybe if I
 
 > [C]ode readability is just about my highest priority when writing. Code is read 7+ times for every time it's modified. Hard to understand code (for noobs or for experts who are working under time pressure) is technical debt that has to be paid every time someone visits the source tree
 
-Considering his points, as well as the fact that I am purposefully making code that aims to be more accessible to newbies, I decided against using decorators.
+Considering his points, as well as the fact that I am purposefully making code that aims to be more accessible to newbies, I decided against using decorators. In my opinion, the guiding principles of Python suggest that I shouldn't go to town with decorators on this project as much as I had originally intended.
 
-Although decorators are important to some types of projects, I don't think it would have been "pythonic" to use them here or shoe-horn them in other parts of the code that I was writing. Sometimes it's better to keep things simple than make them efficient.
+From [The Zen of Python](http://legacy.python.org/dev/peps/pep-0020/) by Tim Peters:
+
+> Beautiful is better than ugly. <br />Explicit is better than implicit.<br />Simple is better than complex [...] <br />If the implementation is hard to explain, it's a bad idea. <br />If the implementation is easy to explain, it may be a good idea.
+
+Although decorators are important to some types of projects, I don't think it would have been "pythonic" to use them here, or to shoe-horn them in other parts of the code that I was writing. Sometimes it's better to keep things simple than make them efficient.
 
 
 <hr />
