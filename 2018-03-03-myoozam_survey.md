@@ -41,7 +41,7 @@ I have no idea whether (like the X-Men we truly are) us "myoozamers" have popped
 
 I'm trying to get a sense of where this phenomenon is coming from (as well as learning more about Google API--more blog posts on that coming soon), so I've put together a survey to collect some basic information.
 
-Please share this with anyone you know who pronounces "museum" as /myoo-zam/ or put it on Twitter so other people can pass it on. If you yourself have this quirk, please take the survey so we can understand what the heck is happening. If you have any information you think might be important to solving this mystery, leave a comment below or hit me up on Twitter ([@zachburchill](https://twitter.com/zachburchill))!
+Please share this with anyone you know who pronounces "museum" as /myoo-zam/ or put it on Twitter so other people can pass it on. If you yourself have this quirk, please take the survey so we can understand what the heck is happening.[^1]} If you have any information you think might be important to solving this mystery, leave a comment below or hit me up on Twitter ([@zachburchill](https://twitter.com/zachburchill))!
 
 If you're interested in collecting this type of data yourself, I'll be releasing a little tutorial about how I made this survey, Google Map interface, and collection process in a blog post in a little bit, so stay tuned! 
 
@@ -248,3 +248,7 @@ form.addEventListener('submit', e => {
 ## Source Code:
 
 I'll be releasing another blog post about my experience with Google Maps JavaScript API and how I'm saving the results of these surveys automatically to a Google Sheets document. Stay tuned for the code! 
+
+### Footnotes
+
+[^1]: The name you put down, which is optional, will never be released publicly without your consent, neither will your parent(s)' childhood homes ever be connected with yours (which could help people identify the data points). Not that this really matters.
