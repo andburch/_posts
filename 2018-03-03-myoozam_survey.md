@@ -33,7 +33,7 @@ I have theories as to why I pronounce it like that (interpreting /eə/ before /m
 
 ## Where does it come from?
 
-Part of why I'm teased so much about it is that this particular linguistic affectation doesn't seem to a documented to any region or dialect. In fact, half of my family (including my twin brother) don't even pronounce it this way. This quirk could be written off as a one-time "glitch" in human language learning but for the fact that my labmates and I have run into other /myoo-zam/ speakers every once in a while.
+Part of why I'm teased so much about it is that this particular linguistic affectation doesn't seem to a documented to any region or dialect. In fact, half of my family (including my twin brother) doesn't even pronounce it this way. I could write this quirk off as a one-time "glitch" in human language learning (which happen all the time) but for the fact that my labmates and I have run into _other_ /myoo-zam/ speakers every once in a while. 
 
 I have no idea whether (like the X-Men we truly are) us "myoozamers" have popped up _spontaneously_ across the country, or if there is some sort of region where this happens in more. I have scant information that suggests this could be something in western Pennsylvania and Texas, but the data is pretty anecdotal.
 
@@ -41,7 +41,7 @@ I have no idea whether (like the X-Men we truly are) us "myoozamers" have popped
 
 I'm trying to get a sense of where this phenomenon is coming from (as well as learning more about Google API--more blog posts on that coming soon), so I've put together a survey to collect some basic information.
 
-Please share this with anyone you know who pronounces "museum" as /myoo-zam/ or put it on Twitter so other people can pass it on. If you yourself have this quirk, please take the survey so we can understand what the heck is happening.[^2]} If you have any information you think might be important to solving this mystery, leave a comment below or hit me up on Twitter ([@zachburchill](https://twitter.com/zachburchill))!
+Please share this with anyone you know who pronounces "museum" as /myoo-zam/ or put it on Twitter so other people can pass it on. If you yourself have this quirk, please take the survey so we can understand what the heck is happening.[^2] If you have any information you think might be important to solving this mystery, leave a comment below or hit me up on Twitter ([@zachburchill](https://twitter.com/zachburchill))!
 
 If you're interested in collecting this type of data yourself, I'll be releasing a little tutorial about how I made this survey, Google Map interface, and collection process in a blog post in a little bit, so stay tuned! 
 
