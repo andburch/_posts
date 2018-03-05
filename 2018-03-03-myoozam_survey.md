@@ -35,7 +35,7 @@ I have theories as to why I pronounce it like that (interpreting /eə/ before /m
 
 Part of why I'm teased so much about it is that this particular linguistic affectation doesn't seem to a documented to any region or dialect. In fact, half of my family (including my twin brother) doesn't even pronounce it this way. I could write this quirk off as a one-time "glitch" in human language learning (which happen all the time) but for the fact that my labmates and I have run into _other_ /myoo-zam/ speakers every once in a while. 
 
-I have no idea whether (like the X-Men we truly are) us "myoozamers" have popped up _spontaneously_ across the country, or if there is some sort of region where this happens in more. I have scant information that suggests this could be something in western Pennsylvania and Texas, but the data is pretty anecdotal.
+I have no idea whether (like the X-Men we truly are) us "myoozamers" have popped up _spontaneously_ across the country, or if there is some sort of region where this happens in more. I have scant information that suggests this could be something in western Pennsylvania and Texas, but the data is honestly pretty anecdotal.
 
 ## Help me!
 
@@ -253,4 +253,4 @@ I'll be releasing another blog post about my experience with Google Maps JavaScr
 
 [^1]: Just to be clear, I'm being tongue-in-cheek here. Linguists know that no dialect or way of speaking is "superior" to any other. <br /><br />With the exception of their own, of course.
 
-[^2]: The name you put down, which is optional, will never be released publicly without your consent, neither will your parent(s)' childhood homes ever be connected with yours (which could help people identify the data points). Not that this really matters.
+[^2]: This is not a real "study" (in any IRB sense)---it's just me wanting to sate my own personal curiosity. However, the name you put down, which is optional, will never be released without your consent, and neither will your parent(s)' locations ever be connected with yours (which could conceivably help people identify the data points?). Not that any of that really matters, but still.
