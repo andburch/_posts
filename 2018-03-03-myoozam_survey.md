@@ -27,7 +27,7 @@ It was then that she called me out for pronouncing "museum" as "myoo-zam."
 
 ## About me
 
-I am just one of those superior human beings who pronounce the word "museum" in two syllables instead of three. 
+I am just one of those superior human beings who pronounce the word "museum" in two syllables instead of three.[^1]
 
 I have theories as to why I pronounce it like that (interpreting /eə/ before /m/ as the result of a raised /æ/ in Midwestern American English dialects), and I could explain why pronouncing it like that actually makes _more_ sense than the way most people do it, but my lab was having none of it. My pronunciation of that word quickly became a meme that follows me to this very day. 
 
@@ -41,7 +41,7 @@ I have no idea whether (like the X-Men we truly are) us "myoozamers" have popped
 
 I'm trying to get a sense of where this phenomenon is coming from (as well as learning more about Google API--more blog posts on that coming soon), so I've put together a survey to collect some basic information.
 
-Please share this with anyone you know who pronounces "museum" as /myoo-zam/ or put it on Twitter so other people can pass it on. If you yourself have this quirk, please take the survey so we can understand what the heck is happening.[^1]} If you have any information you think might be important to solving this mystery, leave a comment below or hit me up on Twitter ([@zachburchill](https://twitter.com/zachburchill))!
+Please share this with anyone you know who pronounces "museum" as /myoo-zam/ or put it on Twitter so other people can pass it on. If you yourself have this quirk, please take the survey so we can understand what the heck is happening.[^2]} If you have any information you think might be important to solving this mystery, leave a comment below or hit me up on Twitter ([@zachburchill](https://twitter.com/zachburchill))!
 
 If you're interested in collecting this type of data yourself, I'll be releasing a little tutorial about how I made this survey, Google Map interface, and collection process in a blog post in a little bit, so stay tuned! 
 
@@ -251,4 +251,6 @@ I'll be releasing another blog post about my experience with Google Maps JavaScr
 
 ### Footnotes
 
-[^1]: The name you put down, which is optional, will never be released publicly without your consent, neither will your parent(s)' childhood homes ever be connected with yours (which could help people identify the data points). Not that this really matters.
+[^1]: Just to be clear, I'm being tongue-in-cheek here. Linguists know that no dialect or way of speaking is "superior" to any other. <br /><br />With the exception of their own, of course.
+
+[^2]: The name you put down, which is optional, will never be released publicly without your consent, neither will your parent(s)' childhood homes ever be connected with yours (which could help people identify the data points). Not that this really matters.
