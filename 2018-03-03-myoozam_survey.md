@@ -236,7 +236,7 @@ form.addEventListener('submit', e => {
         .then(response => console.log('Success!', response))
         .catch(error => console.error('Error!', error.message))
       alert("Thanks for your submission!");
-      window.open("{{ site.url }}{{ site.baseurl }}thank_you","_self");
+      window.open("{{ site.url }}{{ site.baseurl }}","_self");
     }
   })
   
@@ -254,4 +254,4 @@ I'll be releasing another blog post about my experience with Google Maps JavaScr
 
 [^1]: Just to be clear, I'm being tongue-in-cheek here. Linguists know that no dialect or way of speaking is "superior" to any other. <br /><br />With the exception of their own, of course.
 
-[^2]: This is not a real "study" (in any IRB sense)---it's just me wanting to sate my own personal curiosity. However, the name you put down, which is optional, will never be released without your consent, and neither will your parent(s)' locations ever be connected with yours (which could conceivably help people identify the data points?). Not that any of that really matters, but still.
+[^2]: This is not a real "study" (i.e., it isn't funded, it doesn't represent anyone's opinions or views other than my own, it will never lead to a scholarly publication, etc.)---it's just me wanting to sate my own personal curiosity. It has the same seriousness as a Twitter poll, basically. However, the name you put down, which is optional, will never be released without your consent, and neither will your parent(s)' locations ever be connected with yours (which could conceivably help people identify the data points?). Not that any of that really matters, but still.
