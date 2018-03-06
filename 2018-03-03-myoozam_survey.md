@@ -236,6 +236,7 @@ form.addEventListener('submit', e => {
         .then(response => console.log('Success!', response))
         .catch(error => console.error('Error!', error.message))
       alert("Thanks for your submission!");
+      window.open("{{ site.url }}{{ site.baseurl }}thank_you","_self")
     }
   })
   
