@@ -15,9 +15,9 @@ output:
 
 
 
-If I wanted to make this post sound professional and industrious, I say that my motivations behind this project were because I've started working towards my Bayesian model of webcomic updates again, and I'm taking an intermediate step by analyzing data from similar content creators.
+If I wanted to make this post sound professional and industrious, I would say that my motivations behind this project were because I've started working towards my Bayesian model of webcomic updates again, and that I'm taking an intermediate step by analyzing data from similar content creators.
 
-But the truth is, I was just pissed off that I couldn't read the manga I wanted to.
+But the truth is, I was just pissed off that I couldn't read the manga I wanted to. 
 
 These are the Python lessons I learned scraping manga scanlations off of 4chan.
 
