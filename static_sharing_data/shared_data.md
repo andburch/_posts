@@ -21,7 +21,7 @@ burchills:
   - 'Andrew Burchill'
 logo_files: {
   'Zach Burchill':    '/images/pawpaw.png',
-  'Andrew Burchill':  '/images/pawpaw.png'
+  'Andrew Burchill':  '/images/ant.png'
 }
 base_sites: {
   'Zach Burchill':    'https://burchill.github.io/',
