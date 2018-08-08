@@ -4,7 +4,7 @@ title: "My Problems (and Solutions to) Scraping LOTS of Data"
 comments:  true
 published:  true
 author: "Zach Burchill"
-date: 2018-08-08 08:00:00
+date: 2018-08-08 01:00:00
 permalink: /scraping_problems/
 categories: ["python lessons from 4chan",python,'web scraping','manga','webcomics',"python library",requests,urllib,shelve,decorators]
 output:
