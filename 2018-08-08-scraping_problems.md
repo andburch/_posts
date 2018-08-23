@@ -4,7 +4,7 @@ title: "My Problems (and Solutions to) Scraping LOTS of Data"
 comments:  true
 published:  true
 author: "Zach Burchill"
-date: 2018-08-08 01:00:00
+date: 2018-08-08 08:00:00
 permalink: /scraping_problems/
 categories: ["python lessons from 4chan",python,'web scraping','manga','webcomics',"python library",requests,urllib,shelve,decorators]
 output:
@@ -225,8 +225,8 @@ This is probably the "cleanest" section of the code I've written. It contains th
 
 [^2]: I credit Danilo Polani in the source code, but I should here as well---his [blog post about rotating proxies](https://codelike.pro/create-a-crawler-with-rotating-ip-proxy-in-python/) as _super_ helpful in learning how to use them, and I based my asynchronous version on his code.
 
-[^3]: In retrospect: 1) I'm not _100\%_ sure shelves remove the cache (although the docs say they do), and 2) looking back, I don't think I actually ever _needed_ to clear the cache for the amount of data I actually loaded, but I didn't know that going in. I think I honestly could have gotten away with a GIL and a simple dictionary, but I like what I have now.
+[^3]: In retrospect: 1) I'm not _100%_ sure shelves remove the cache (although the docs say they do), and 2) looking back, I don't think I actually ever _needed_ to clear the cache for the amount of data I actually loaded, but I didn't know that going in. I think I honestly could have gotten away with a GIL and a simple dictionary, but I like what I have now.
 
 [^4]: I only fixed it up because I realized there wasn't really an excuse to keep it like that after writing  this blog post.
 
-[^5]: From the `shelve` docs: "The database is also (unfortunately) subject to the limitations of dbm, if it is used---this means that (the pickled representation of) the objects stored in the database should be fairly small, and in rare cases key collisions may cause the database to refuse updates.
+[^5]: From the `shelve` docs: "The database is also (unfortunately) subject to the limitations of dbm, if it is used---this means that (the pickled representation of) the objects stored in the database should be fairly small, and in rare cases key collisions may cause the database to refuse updates.""
