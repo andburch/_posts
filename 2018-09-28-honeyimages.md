@@ -21,7 +21,7 @@ But you know what? Let me make that up to you.  We’re going H-A-double-M on pi
 
 ## Western/Global Depictions
 
-So I think a good moniker for these ants would be something like “Public Mysteries.” Everybody (at least in Australia) is at least familiar with them, but… does anybody really KNOW them, maaaaan? As few ants are, they exist as an actual public presence.
+So I think a good moniker for these ants would be something like “Public Mysteries.” Everybody (at least in Australia) is partially familiar with them, but… does anybody really KNOW them, maaaaan? As few ants manage, these ants exist as an actual public presence.
 
 Case in point: THERE ARE GIANT, BEAUTIFUL MURALS DEDICATED TO THEIR GREATNESS!
 
