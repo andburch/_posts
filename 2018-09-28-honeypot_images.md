@@ -45,11 +45,14 @@ These ants even get recycled into YouTube videos describing fantasy worldbuildin
 
 Ah, hopefully by now, dear reader, you have both come to understand sarcasm on the Internet and have begun to perceive a certain… “consistency of form” in the above images. In the same way that our “educational” art card has recorded, in three bullet points, THE SUM TOTAL OF EXISTING KNOWLEDGE ABOUT THESE ANTS—the same few, *endlessly* parroted “science facts”—so too do the *images themselves* return repeated in different iterations, again and again. 
 As far as I can tell, the primogenitor of all these graphics is the below photo, the original photographer’s identity lost in the mists of time.
- 
-Look and be appalled: even the mural is little more than a trace of this *one* photo. Being that this is a bee-yoo-tiful example of a cultural meme—whose ancient Greek root μιμητής (mimētḗs) aptly means "pretender/imitator"—it is only fitting that this same photo has been thoroughly regurgitated as an Internet meme as well. REDDIT PHOTOSHOP BATTLE [BEGIN!](https://www.reddit.com/r/photoshopbattles/comments/1q6ddo/honey_pot_ant_xpost_from_rpics/)!
+
+![the OG honeypot photo]({{ site.url }}/_posts/figures/static_files/honeyimages/OG-photo.jpg){:width="400px"}
+<p class = "figcaption">The ancient Ur-photo, that from which all other images spring.</p>
+
+Look and be appalled: even the above mural is little more than a trace of this *one* photo. Being that this is a bee-yoo-tiful example of a cultural meme—whose ancient Greek root μιμητής (mimētḗs) aptly means "pretender/imitator"—it is only fitting that this same photo has been thoroughly regurgitated as an Internet meme as well. REDDIT PHOTOSHOP BATTLE [BEGIN!](https://www.reddit.com/r/photoshopbattles/comments/1q6ddo/honey_pot_ant_xpost_from_rpics/)!
 
 ![Jurassic Park cane as a honeypot ant]({{ site.url }}/_posts/figures/static_files/honeyimages/u-sitty.png){:width="400px"}
-<p class = "figcaption">John Hammond’s cane from *Jurassic Park* is looking a bit more alive than usual. (Reddit user sitty)</p>
+<p class = "figcaption">John Hammond’s cane from <i>Jurassic Park</i> is looking a bit more alive than usual. (Reddit user sitty)</p>
  
 ![half-life 2 honeypot]({{ site.url }}/_posts/figures/static_files/honeyimages/u-gang_vape--gordon freeman.jpg){:width="400px"}
 <p class = "figcaption">  Gordon Freeman holding an attractive "bearbait." … It’s a <a href="http://half-life.wikia.com/wiki/Pheropods">Half-Life 2 reference</a>, okay? (Reddit user gang_vape)</p>
@@ -92,7 +95,7 @@ There are also more modern depictions in murals too, quite a few.
 ![honeypot ant WYDAC mural]({{ site.url }}/_posts/figures/static_files/honeyimages/josh-evans-at-nordic-food-labs-wydac.jpg){:width="400px"}
 <p class = "figcaption">  Look at this gorgeous ant! (WYDAC stands for the <a href="http://wydac.org.au/home/">Warlpiri Youth Development Aboriginal Corporation</a>.) (Josh Evans from Nordic Foods Lab)</p>
 
-![honeypot ant graffiti mural]({{ site.url }}/_posts/figures/static_files/honeyimages/nturiya-andrew bourke-mural.jpg){:width="400px"}
+![honeypot ant graffiti mural]({{ site.url }}/_posts/figures/static_files/honeyimages/nturiya-andrew-bourke-mural.jpg){:width="400px"}
 <p class = "figcaption">  Here's a photo of a photo of a graffiti-style mural done in Nturiya. It's a collaboration between Andrew Bourke and local youth.</p>
 
 ![honeypot ant mural final]({{ site.url }}/_posts/figures/static_files/honeyimages/honeypot_ant_mural.jpg){:width="400px"}
