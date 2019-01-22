@@ -96,7 +96,7 @@ It's just _that_ simple!
 
 ## Source Code:
 
-> [`scanlation_scraper_timed.py`]({{ site.url }}/code/4chan-image-scraper/scanlation_scraper_timed.py)
+> [`scanlation_scraper_timed.py`](https://github.com/burchill/burchill.github.io/blob/master/code/4chan-image-scraper/scanlation_scraper_timed.py)
 
 The end-product of my pains. I gave up adding doc strings halfway, but I have a lot of comments, so understanding what's happening shouldn't be too hard. I made the argument-parsing nice and sexy--try `python3 scanlation_scraper_timed.py -h` for a look-see. 
 
