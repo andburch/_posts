@@ -131,17 +131,16 @@ I wanted to better capture `knitr`'s chunk option functionality though. Specific
 
 In order to do _that_, I made a magic command that would display the _input_ code of the cell in the _output_ automatically, but would _hide_ it unless all the other inputs were hidden. This way, the cell's input would still be visible in the final product no matter what. I used IPython's built-in code displayer, but edited its output to add in a custom class name that would toggle with `%hide_all`.
 
-Unfortunately, this had very minor visual changes to other output elements in the rest of the document (i.e., the background of the tables slightly darkened). Being too OCD to let that slide, I further hacked the output so that it would generate a unique class name for each output cell and only apply the stylings to that particular cell/class.
+Unfortunately, this had very minor visual changes to other output elements in the rest of the document (i.e., the background of the tables slightly darkened). Being too OCD to let that slide, I further hacked the output so that it would generate a unique class name for each output cell and only apply the stylings to that particular cell/class. 
 
 Check out my final code in the source below, and you can get started yourself!
-
 
 <hr />
 <br />
 
 ## Source Code:
 
-The source code is on [my GitHub as a gist here](https://gist.github.com/burchill/4adb9531a246e8c27752c1b19e0236bb) with relatively extensive comments. Feel free to use / modify it for your own purposes!
+The source code is on [my GitHub as a gist here](https://gist.github.com/burchill/4adb9531a246e8c27752c1b19e0236bb) with relatively extensive comments. Feel free to use or modify it for your own purposes!
 
 ### Footnotes:
 
