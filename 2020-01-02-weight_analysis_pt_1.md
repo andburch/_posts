@@ -84,20 +84,6 @@ Notice that the first column is named "X", R's default for unnamed columns---thi
 
 
 
-{% highlight text %}
-## # A tibble: 2 x 2
-##   error                                                              n
-##   <fct>                                                          <int>
-## 1 ""                                                               198
-## 2 Command 'omxplayer all_done.mp3' returned non-zero exit statu…     2
-{% endhighlight %}
-
-
-
-{% highlight text %}
-## Warning in bind_rows_(x, .id): binding character and factor vector,
-## coercing into character vector
-{% endhighlight %}
 
 
 ### Outliers: medians are more robust
