@@ -33,7 +33,7 @@ Let's load up the data and put it into the right format, making the `time` colum
 
 
 {% highlight r %}
-raw_df <- read.csv("~/Desktop/for_r.csv") %>% 
+raw_df <- read.csv("~/burchill.github.io/code/weight-data/for_r.csv") %>% 
   as_tibble() %>%
   # Turn the `time` column into actual time objects
   mutate(time = as.POSIXct(time, origin="1970-01-01")) %>%
@@ -47,7 +47,7 @@ raw_df <- read.csv("~/Desktop/for_r.csv") %>%
 
 
 
-The first thing you'll notice is that there are a lot of columns in this data frame (31)---the way my setup currently converts its JSON data into R-readable files just dumps all the values into their own columns. 
+The first thing you'll notice is that there are a lot of columns in this data frame (35)---the way my setup currently converts its JSON data into R-readable files just dumps all the values into their own columns. 
 
 Let's remove a lot of those right now to make things easier for you:
 
@@ -80,7 +80,7 @@ raw_df[1:5, 1:7]
 ## 5     4  3.30   82.8  82.3 0720caf37139… 2019-09-23 09:50:54 wakeup
 {% endhighlight %}
 
-Notice that the first column is named "X", R's default for unnamed columns---this comes from the unnamed index column of the `pandas` data frame that generated it. "ID" is a uniquely generated ID for each measurement, "sleepwake"" is a factor we'll talk about later, and the rest of the columns are self-explanatory.
+Notice that the first column is named "X", R's default for unnamed columns---this comes from the unnamed index column of the `pandas` data frame that generated it. "ID" is a uniquely generated ID for each measurement, "sleepwake" is a factor we'll talk about later, and the rest of the columns are self-explanatory.  
 
 
 
