@@ -98,4 +98,4 @@ The source code for getting the basics set up is [here](https://github.com/burch
 
 [^2]: My advice is: go with a kit. I had to order the power supply, SD card, and HDMI connectors all separately, and it took _forever_ to come in.
 
-[^3]: Yeah I'm a drama queen, but this had me at my wit's end. I was going through the source-code for random C packages looking for things I didn't understand, stumbling through weird Unix stuff, smashing my head against the wall with architectures I didn't understand. 
+[^3]: Yeah I'm a drama queen, but this had me at my wit's end. I was going through the source-code for random C packages looking for things I didn't understand, stumbling through weird Unix stuff, smashing my head against the wall with architectures I couldn't comprehend. 
