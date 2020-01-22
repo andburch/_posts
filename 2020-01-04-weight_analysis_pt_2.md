@@ -6,7 +6,7 @@ published:  true
 author: "Zachary Burchill"
 date: 2020-01-04 10:00:00
 permalink: /weight_analysis_pt_2/
-categories: ["raspberry pi",R,scale,health,weight,"time series",gam,gamm,data,"data science","data analysis"]
+categories: ["raspberry pi",R,scale,health,weight,"time series",GAM,GAMM,data,"data science","data analysis"]
 output:
   html_document:
     mathjax:  default
