@@ -1,6 +1,6 @@
 ---
 layout:  post
-title: "Modeling long-term personal weights with GAMs"
+title: "Modeling long-term weight data with GAMs"
 comments:  true
 published:  true
 author: "Zachary Burchill"
@@ -25,13 +25,16 @@ editor_options:
 
 
 
-If you don't remember [my previous post about my custom Bluetooth scale]({{ site.baseurl }}{% post_url 2019-09-07-bluetooth_scale_intro %}) from a couple of months ago, I've been collecting a large amount of fine-grained information about my weight for the past couple of months.
+Previously, I've talked about how I've started to [collect fine-grained information about my own weight]({{ site.baseurl }}{% post_url 2019-09-07-bluetooth_scale_intro %}) and how I went about [cleaning the data for analysis]({{ site.baseurl }}{% post_url 2020-01-02-weight_analysis_pt_1 %}).
+ Before I go into my experiments, I'm making a temporary detour into different modeling questions.
+ 
+Feel free to come along with me as I try to make sense of trends in my own weight with generalized additive models!
 
-In this post, I'll walk through my initial look at it, some problems I had with cleaning the data, and what I did to fix them.
+### Part 3: Modeling long-term weight data with GAMs
 
 <!--more-->
 
-_For the background on the project this post stems from, check out [Part 1]({{ site.baseurl }}{% post_url 2019-09-07-bluetooth_scale_intro %}) and [Part 2]({{ site.baseurl }}{% post_url 2020-01-02-weight_analysis_pt_1 %}) of this series._
+_For background on the project this post stems from, check out [Part 1]({{ site.baseurl }}{% post_url 2019-09-07-bluetooth_scale_intro %}) and [Part 2]({{ site.baseurl }}{% post_url 2020-01-02-weight_analysis_pt_1 %}) of this series._
 
 
 
@@ -192,9 +195,9 @@ GAMs are also nice in that you can calculate the slope (i.e., derivative) of a s
 
 Unfortunately, this significance is 100% tied to the exact shape of the smooth (of course).  If the wiggles in your smooth are picking up on variance that isn't important, it can tell you that changes that aren't important are significant.
 
-![The time spans that are 'significant' change wildly depending on the arbitrary wiggles of the smooth. Here, the GAM has the number of basis functions for the time smooth set to 12.](/_posts/figures/generated/source/x2020-01-04-weight_analysis_pt_2/unnamed-chunk-8-1.png)
+![The time spans that are 'significant' change wildly depending on the arbitrary wiggles of the smooth. Here, the time smooth is generated GAM with the number of basis functions set to 12.](/_posts/figures/generated/source/x2020-01-04-weight_analysis_pt_2/unnamed-chunk-8-1.png)
 
-<p class='figcaption'>The time spans that are 'significant' change wildly depending on the arbitrary wiggles of the smooth. Here, the GAM has the number of basis functions for the time smooth set to 12.</p>
+<p class='figcaption'>The time spans that are 'significant' change wildly depending on the arbitrary wiggles of the smooth. Here, the time smooth is generated GAM with the number of basis functions set to 12.</p>
 
 If I want to be able to automatically get notified when I'm _actually_ starting to gain weight, I think I'm going to use a simpler [exponential smoothing](https://en.wikipedia.org/wiki/Exponential_smoothing) model, maybe one that also uses a GAM to remove some of the periodic effects beforehand.
 
