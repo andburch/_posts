@@ -1,6 +1,6 @@
 ---
 layout:  post
-title: "Cleaning and Preparing Personal Weight Data"
+title: "Cleaning/preparing personal weight data"
 comments:  true
 published:  true
 author: "Zachary Burchill"
@@ -19,13 +19,15 @@ editor_options:
 
 
 
-If you don't remember [my previous post about my custom Bluetooth scale]({{ site.baseurl }}{% post_url 2019-09-07-bluetooth_scale_intro %}) from a couple of months ago, I've been collecting a large amount of fine-grained information about my weight for the past couple of months.
+If you don't remember [my previous post about my custom Bluetooth scale]({{ site.baseurl }}{% post_url 2019-09-07-bluetooth_scale_intro %}) from a couple of months ago, I've been collecting a large amount of fine-grained information about my weight for the past couple of months. 
 
 In this post, I'll walk through my initial look at it, some problems I had with cleaning the data, and what I did to fix them.
 
+### Part 2: Cleaning/preparing personal weight data
+
 <!--more-->
 
-_For the background on the project this post stems from, check out the [first post in the series]({{ site.baseurl }}{% post_url 2019-09-07-bluetooth_scale_intro %})._
+_For background on the project this post stems from, check out the [first post in the series]({{ site.baseurl }}{% post_url 2019-09-07-bluetooth_scale_intro %})._
 
 ## Data cleaning and sanity checking
 
