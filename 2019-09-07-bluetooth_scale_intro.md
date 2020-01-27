@@ -1,6 +1,6 @@
 ---
 layout:  post
-title: "Raspberry Pi 4 Bluetooth Scale"
+title: "Raspberry Pi 4 bluetooth scale"
 comments:  true
 published:  true
 author: "Zach Burchill"
@@ -19,7 +19,12 @@ I'm getting fat.  Well, fatt<em>er</em>. My [twin brother and perfect control ex
 
 I've spent three months working on a Bluetooth weight collection system and zero months on a diet, so without further ado, let me walk you through starting up your very own Bluetooth bathroom scale. 
 
+### Part 1: Raspberry Pi 4 bluetooth scale
+
 <!--more-->
+
+_For more in this series, check out [Part 2]({{ site.baseurl }}{% post_url 2020-01-02-weight_analysis_pt_1 %}), [Part 3]({{ site.baseurl }}{% post_url 2020-01-04-weight_analysis_pt_2 %}), and [Part 4]({{ site.baseurl }}{% post_url 2020-01-20-weight_analysis_pt_3 %})._
+
 
 First, in order to collect and store weight information, you need something that will collect the information and something that will store the information (lol). Let's focus first on the data collection component.
 

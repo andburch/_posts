@@ -3,7 +3,7 @@ layout:  post
 title: "Cleaning/preparing personal weight data"
 comments:  true
 published:  true
-author: "Zachary Burchill"
+author: "Zach Burchill"
 date: 2020-01-02 10:00:00
 permalink: /weight_analysis_pt_1/
 categories: ["raspberry pi",R,scale,health,weight,"wii fit",wii,data,"data science","data analysis"]
@@ -27,7 +27,7 @@ In this post, I'll walk through my initial look at it, some problems I had with 
 
 <!--more-->
 
-_For background on the project this post stems from, check out the [first post in the series]({{ site.baseurl }}{% post_url 2019-09-07-bluetooth_scale_intro %})._
+_For background on the project this post stems from, check out the [first post in the series]({{ site.baseurl }}{% post_url 2019-09-07-bluetooth_scale_intro %})._ _For more in this series, check out [Part 3]({{ site.baseurl }}{% post_url 2020-01-04-weight_analysis_pt_2 %}) and [Part 4]({{ site.baseurl }}{% post_url 2020-01-20-weight_analysis_pt_3 %})._
 
 ## Data cleaning and sanity checking
 

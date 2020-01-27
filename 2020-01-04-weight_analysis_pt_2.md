@@ -3,7 +3,7 @@ layout:  post
 title: "Modeling long-term weight data with GAMs"
 comments:  true
 published:  true
-author: "Zachary Burchill"
+author: "Zach Burchill"
 date: 2020-01-04 10:00:00
 permalink: /weight_analysis_pt_2/
 categories: ["raspberry pi",R,scale,health,weight,"time series",GAM,GAMM,data,"data science","data analysis"]
@@ -34,7 +34,7 @@ Feel free to come along with me as I try to make sense of trends in my own weigh
 
 <!--more-->
 
-_For background on the project this post stems from, check out [Part 1]({{ site.baseurl }}{% post_url 2019-09-07-bluetooth_scale_intro %}) and [Part 2]({{ site.baseurl }}{% post_url 2020-01-02-weight_analysis_pt_1 %}) of this series._
+_For background on the project this post stems from, check out [Part 1]({{ site.baseurl }}{% post_url 2019-09-07-bluetooth_scale_intro %}) and [Part 2]({{ site.baseurl }}{% post_url 2020-01-02-weight_analysis_pt_1 %}) of this series._ _For more in this series, check out [Part 4]({{ site.baseurl }}{% post_url 2020-01-20-weight_analysis_pt_3 %})._
 
 
 
