@@ -3,7 +3,7 @@ layout:  post
 title: "Bowel movements, losing weight while sleeping, and other questions 💩"
 comments:  true
 published:  true
-author: "Zachary Burchill"
+author: "Zach Burchill"
 date: 2020-01-20 10:00:00
 permalink: /weight_analysis_pt_3/
 categories: ["raspberry pi",R,health,weight,poop,sleep,hypotheses,data,"data science","data analysis"]
@@ -21,7 +21,7 @@ editor_options:
 
 
 
-
+   
 
 
 
