@@ -9,8 +9,8 @@ cognomen: {
   'Andrew':           'Andrew Burchill'
 }
 authorlinks: {
-  'Zach Burchill':    'https://zachburchill.ml/about/',
-  'Andrew Burchill':  'https://andburch.github.io/about/'
+  'Zach Burchill':    'https://www.zachburchill.ml/about',
+  'Andrew Burchill':  'https://andburch.github.io/about'
 }
 authorstyles: {
   'Zach Burchill':    'zach_style.css',
@@ -24,11 +24,11 @@ logo_files: {
   'Andrew Burchill':  '/images/ant.png'
 }
 base_sites: {
-  'Zach Burchill':    'https://zachburchill.ml/',
-  'Andrew Burchill':  'https://andburch.github.io/'
+  'Zach Burchill':    'https://www.zachburchill.ml',
+  'Andrew Burchill':  'https://andburch.github.io'
 }
 author_blogs: {
-  'Zach Burchill':    'https://zachburchill.ml/blog/',
-  'Andrew Burchill':  'https://andburch.github.io/blog/'
+  'Zach Burchill':    'https://www.zachburchill.ml/blog',
+  'Andrew Burchill':  'https://andburch.github.io/blog'
 }
 --- 
