@@ -33,7 +33,7 @@ The most contact Westerners have with the term "mono no aware" is probably throu
 
 ![Setsuko Hara as Noriko and Chishū Ryū as Shukichi in Yasujirō Ozu's <em>Late Spring</em>.](https://upload.wikimedia.org/wikipedia/commons/f/fb/Banshu_01.jpg){:width="400px"}
 
-<p class = "figcaption">Setsuko Hara as Noriko and Chishū Ryū as Shukichi in Yasujirō Ozu's<em>Late Spring</em>. (Taken from Wikipedia)</p>
+<p class = "figcaption">Setsuko Hara as Noriko and Chishū Ryū as Shukichi in Yasujirō Ozu's <em>Late Spring</em>. (Taken from Wikipedia)</p>
 
 _Mono no aware_ is also often linked to the contemplation of the beauty of cherry blossoms, which only bloom for a few weeks before falling.  I should mention that I myself am not Japanese, nor am I a scholar on Japanese literature, but the feeling of _mono no aware_ is something that I believe most people can connect to. 
 
