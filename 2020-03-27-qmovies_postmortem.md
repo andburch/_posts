@@ -4,7 +4,7 @@ title: "Hollywood Superstitions vs. Data Science: Post-mortem"
 comments:  true
 published:  true
 author: "Zachary and Andrew Burchill"
-date: 2020-03-25 00:30:00
+date: 2020-03-26 00:30:00
 permalink: /qmovies_postmortem/
 categories: [R,IMDB,movies,"question marks","post-mortem"]
 output:
@@ -13,11 +13,11 @@ output:
     fig_caption:  true
 ---
 
-You maybe have seen the [post my brother and I just made about our investigation of some of the Hollywood superstitions]({{ site.baseurl }}{% post_url 2020-03-25-questionable_movies %}).  If not, go read that first.  This is just a little writeup about some of the technical problems we had working on the project, perfect for someone interested in how to do their own fast and dirty data science investigations, or someone interested in listening to me complain.
+You maybe have seen the [post my brother and I just made about our investigation of some of the Hollywood superstitions]({{ site.baseurl }}{% post_url 2020-03-27-questionable_movies %}).  If not, go read that first.  This is just a little writeup about some of the technical problems we had working on the project, perfect for someone interested in how to do their own fast and dirty data science investigations, or someone interested in listening to me complain.
 
 <!--more-->
 
-When Andrew first came to me with [this project idea]({{ site.baseurl }}{% post_url 2020-03-25-questionable_movies %}), it sounded like a great, easy project.  My impression was that we could bang this out in an afternoon or two and be done with it.  All we had to *really* do was identify which movie titles were questions, and the rest would just be some basic data science.
+When Andrew first came to me with [this project idea]({{ site.baseurl }}{% post_url 2020-03-27-questionable_movies %}), it sounded like a great, easy project.  My impression was that we could bang this out in an afternoon or two and be done with it.  All we had to *really* do was identify which movie titles were questions, and the rest would just be some basic data science.
 
 Unfortunately, after the first few hacks I threw at the problem failed miserably,[^1] I realized that it wasn't going to be as simple as I first thought. Determining whether a sentence is a question or not is decidedly non-trivial. For example, [even the example for this problem in the NLTK book itself](https://datascience.stackexchange.com/questions/26427/how-to-extract-question-s-from-document-with-nltk) only gets a 67% accuracy rate for identifying questions, woefully low for our purposes.
 
@@ -105,7 +105,7 @@ Finally, I learned that my brother and I can spend upwards of three hours arguin
 
 Secret additional problem time!
 
-You might have noticed that some of the plots [in the main post]({{ site.baseurl }}{% post_url 2020-03-25-questionable_movies %}) are interactive.  They use something called ["Plotly"](https://plotly.com/) which is very cool, and easy(ish) to use with `ggplot2`.
+You might have noticed that some of the plots [in the main post]({{ site.baseurl }}{% post_url 2020-03-27-questionable_movies %}) are interactive.  They use something called ["Plotly"](https://plotly.com/) which is very cool, and easy(ish) to use with `ggplot2`.
 
 _**However**_, these plots are interactive because they are Javascript-powered.  This type of interactive R stuff is super easy to integrate with R Markdown/knitr, but only if you're knitting to HTML.  Unfortunately, my Github Pages site is powered by Jekyll, which means knitting the R Markdown files into Jekyll-flavored markdown.
 
@@ -124,19 +124,19 @@ This is the code I ran on the university compute cluster to do part-of-speech ta
 
 This is the code we used to separate the movie titles that we defined as questions from the others.
 
-> [`2020-03-25-questionable_movies.Rmd`](https://github.com/burchill/burchill.github.io/blob/master/_source/2020-03-25-questionable_movies.Rmd)
+> [`2020-03-27-questionable_movies.Rmd`](https://github.com/burchill/burchill.github.io/blob/master/_source/2020-03-27-questionable_movies.Rmd)
 
-If you want to see the source code for any of the cool, interactive plotly graphs or anything else from this post, you can check out the source code above.
+If you want to see the source code for any of the cool, interactive plotly graphs or anything else from our "official" post, you can check out the source code above.
 
 ### Footnotes:
 
-[^1]: My first hack was to do part of speech tagging by just joining the `tidytext` `parts_of_speech` to the titles---it has a huge list of words and which POS they normally are. Unfortunately, it's very impoverished for what we needed: for example, `tidytext` considers the word "a" to be a noun, verb, preposition, and a definite article (`tidytext::parts_of_speech %>% filter(word=="a")`). Plural nouns were also not included in the database. For example, the word "knights" in [When Knights Were Bold](https://www.imdb.com/title/tt0028495/) comes up as a verb (like "to knight someone") and not a noun, only the singular form of "knight" is interpreted as a person, place, or thing.
+[^1]: My first hack was to do part of speech tagging by just joining the `tidytext` `parts_of_speech` to the titles---it has a huge list of words and which POS they normally are. Unfortunately, it's very impoverished for what we needed: for example, `tidytext` considers the word "a" to be a noun, verb, preposition, and a definite article (`tidytext::parts_of_speech %>% filter(word=="a")`). Plural nouns were also not included in the database. For example, the word "knights" in [When Knights Were Bold](https://www.imdb.com/title/tt0028495/) comes up as a verb (like "to knight someone") and not a noun, only the singular form of "knight" is interpreted as a person, place, or thing. 
 
 [^2]: Yes, I know there is a lot of cool science at the interface of these two fields, blah blah blah.
 
 [^3]: SCREW *which*, *whom*, *whether*, and *whose*. *Whither* and *whence* are cool though.
 
-[^4]: other than a participle or gerund
+[^4]: other than a participle or gerund 
 
 [^5]: *kind of*
 
