@@ -230,7 +230,7 @@ Do I stay in the bathroom longer for bigger BMs?
 
 If Derek and NPR are right, we lose most of the weight lost in sleep through respiration. If this hypothesis is correct, we would expect that longer sleep = more respiration = more weight lost. Is this borne out in the data?
 
-![plot of chunk unnamed-chunk-7](/_posts/figures/generated/source/x2020-01-20-weight_analysis_pt_3/unnamed-chunk-7-1.png)
+<img src="/_posts/figures/generated/source/x2020-01-20-weight_analysis_pt_3/unnamed-chunk-7-1.png" title="plot of chunk unnamed-chunk-7" alt="plot of chunk unnamed-chunk-7" width="40%" />
 
 **Answer: Probably!** The effect is close to significance, which I'll take, and the trend is in the right direction!    
           
