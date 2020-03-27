@@ -4,7 +4,7 @@ title: "Hollywood Superstitions vs. Data Science: Post-mortem"
 comments:  true
 published:  true
 author: "Zachary and Andrew Burchill"
-date: 2020-03-26 00:30:00
+date: 2020-03-27 00:30:00
 permalink: /qmovies_postmortem/
 categories: [R,IMDB,movies,"question marks","post-mortem"]
 output:
