@@ -33,7 +33,7 @@ If you use Python and want an incredibly easy-to-get-into web scraping tool, che
 
 "Broodhollow."  The name sounds like a title that a moody fifteen-year-old would come up with, but it is **absolutely** my favorite webcomic. _**Ever.**_ _Broodhollow's_ art is beautiful and the story writing is some of the best I've ever read. One part comedy and two parts creeping horror, if the phrase "Tintin meets H.P. Lovecraft" appeals to you at all, [go read it right now](http://broodhollow.chainsawsuit.com/). If author Kris Straub can finish the comic with a _tenth_ of the talent he's exhibited so far, I'm confident this will go down as one of the great graphic novels of our generation.
 
-![plot of chunk broodhollow_snippet](/_posts/figures/source/x2016-11-14-webcomic_post/broodhollow_snippet-1.png)
+![plot of chunk broodhollow_snippet](/_posts/figures/generated/source/x2016-11-14-webcomic_post/broodhollow_snippet-1.png)
 
 <p class = "figcaption">A sample of Kris Staub's genius: <em>Broodhollow</em>.</p>
  
@@ -43,7 +43,7 @@ That is, _if_ he can finish it. Kris is a [pretty prolific artist](http://studio
 
 So let's actually look at how often _Broodhollow_ has been updating.
 
-![plot of chunk broodhollow_graph](/_posts/figures/source/x2016-11-14-webcomic_post/broodhollow_graph-1.png)
+![plot of chunk broodhollow_graph](/_posts/figures/generated/source/x2016-11-14-webcomic_post/broodhollow_graph-1.png)
 
 <p class = "figcaption">'Cadavre' comics are non-serial humorous strips about the daily life of a French-accented skeleton, generally consider filler material.</p>
 
@@ -61,7 +61,7 @@ Early SMBC comics usually consisted of a single panel, and relied on a specific 
 
 Combining the `Pillow` module for Python 3 with my web scraping code, I recorded the width and height of each of his comics.  Unlike many webcomics, I should add, SMBC generally is in "portrait" orientation, meaning that **the longer the comic, the taller the image**.
 
-![plot of chunk smbc_graph](/_posts/figures/source/x2016-11-14-webcomic_post/smbc_graph-1.png)
+![plot of chunk smbc_graph](/_posts/figures/generated/source/x2016-11-14-webcomic_post/smbc_graph-1.png)
 
 <p class = "figcaption">It would seem that around late 2008, (<a href="http://www.smbc-comics.com/comic/2008-08-10">August 10th by my reckoning</a>, marked on the graph) Zach started getting bored with one-panel comic strips.</p>
 
@@ -69,7 +69,7 @@ I was surprised by how quickly SMBC started coming out with longer comics after 
 
 Now, for a little bit of humor only Zach Weinersmith could find funny:
 
-![plot of chunk smbc_votey_graph](/_posts/figures/source/x2016-11-14-webcomic_post/smbc_votey_graph-1.png)
+![plot of chunk smbc_votey_graph](/_posts/figures/generated/source/x2016-11-14-webcomic_post/smbc_votey_graph-1.png)
 
 <p class = "figcaption">Just kidding Zach! I know how much you appreciate graph jokes. <br />Typical height of 1 panel ~= 500 px. Ironically, this plot was created with the `xkcd` package in R.</p>
 
@@ -77,7 +77,7 @@ Now, for a little bit of humor only Zach Weinersmith could find funny:
 
 The last webcomic I'll be discussing here is [_Prague Race_](http://www.praguerace.com/) by [Petra Nordlund](https://twitter.com/petra_nordlund).  _Prague Race_ is another pretty comic with great writing and plot. 
 
-![plot of chunk prague_race_snippet](/_posts/figures/source/x2016-11-14-webcomic_post/prague_race_snippet-1.png)
+![plot of chunk prague_race_snippet](/_posts/figures/generated/source/x2016-11-14-webcomic_post/prague_race_snippet-1.png)
 
 <p class = "figcaption"><em>Prague Race</em> by Petra Nordlund: mostly funny, sometimes dark, and with enough mystery in the background to keep readers guessing</p>
 
@@ -89,7 +89,7 @@ When I was web scraping _Prague Race_ I decided to empirically test these hypoth
 
 As a first-order approximation of how much she was apologizing, I collected the number of times the word "sorry" appeared in the update text for each comic. As a first-order approximation of whether the update cycle was slowing down, I'll be fitting your basic, barebones linear regression model to the data, which I'll add to the graph below.
 
-![plot of chunk prague_graph](/_posts/figures/source/x2016-11-14-webcomic_post/prague_graph-1.png)
+![plot of chunk prague_graph](/_posts/figures/generated/source/x2016-11-14-webcomic_post/prague_graph-1.png)
 
 <p class = "figcaption">It does seem that updates are slowing down slightly, and although updates with the word "sorry" seemingly tend to come after longer delays, there were too few data points to say something definitive. Errorbars represent bootstrapped 95% confidence intervals.</p>
 
