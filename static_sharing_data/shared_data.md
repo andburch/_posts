@@ -6,7 +6,8 @@ cognomen: {
   'Zach':             'Zach Burchill',
   'Zachary Burchill': 'Zach Burchill',
   'Andrew Burchill':  'Andrew Burchill',
-  'Andrew':           'Andrew Burchill'
+  'Andrew':           'Andrew Burchill',
+  'Andrew Burchill, Ph.D.': 'Andrew Burchill'
 }
 authorlinks: {
   'Zach Burchill':    'https://www.zachburchill.ml/about',
