@@ -31,9 +31,9 @@ By the time I finally got around to it, I was old enough to appreciate it, and k
 
 The most contact Westerners have with the term "mono no aware" is probably through the internet, where it draws its fame from being a particularly hard phrase to translate. Although [Wikipedia probably sums it up the best](https://en.wikipedia.org/wiki/Mono_no_aware), _mono no aware_ roughly corresponds to an empathy and gentle sadness for the life's ephemeralities. Some of the most quintessential instances are said to be captured in Japanese filmmaker Yasujirō Ozu's movies, such as a loyal daughter being married off in the film [Late Spring](https://en.wikipedia.org/wiki/Late_Spring#Plot). 
 
-![Setsuko Hara as Noriko and Chishū Ryū as Shukichi in Yasujirō Ozu's <em>Late Spring</em>.](https://upload.wikimedia.org/wikipedia/commons/f/fb/Banshu_01.jpg){:width="400px"}
+![Setsuko Hara as Noriko and Chishū Ryū as Shukichi in Yasujirō Ozu's<em>Late Spring</em>.](https://upload.wikimedia.org/wikipedia/commons/f/fb/Banshu_01.jpg){:width="400px"}
 
-<p class = "figcaption">Setsuko Hara as Noriko and Chishū Ryū as Shukichi in Yasujirō Ozu's <em>Late Spring</em>. (Taken from Wikipedia)</p>
+<p class = "figcaption">Setsuko Hara as Noriko and Chishū Ryū as Shukichi in Yasujirō Ozu's<em>Late Spring</em>. (Taken from Wikipedia)</p>
 
 _Mono no aware_ is also often linked to the contemplation of the beauty of cherry blossoms, which only bloom for a few weeks before falling.  I should mention that I myself am not Japanese, nor am I a scholar on Japanese literature, but the feeling of _mono no aware_ is something that I believe most people can connect to. 
 
